@@ -1,0 +1,92 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {715, 628}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{28, 52}, {319, 64}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "gusess_number_question_label",
+          "frame" : "{{283, 298}, {150, 32}}",
+          "uuid" : "C5C78E3D-0A35-4B5B-8EE8-4447C1273B70",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter the number of student",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{28, 170}, {200, 68}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "input_of_number_textbox",
+          "custom_attributes" : "",
+          "frame" : "{{258, 298}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "text" : "",
+          "uuid" : "84289424-B141-423F-81FD-C4FD0CEB02FE",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{28, 265}, {120, 52}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 0,
+          "action" : "check_number_of_touch_up_inside",
+          "frame" : "{{318, 298}, {80, 32}}",
+          "title" : "Check",
+          "class" : "Button",
+          "uuid" : "C103198B-B496-4F06-946F-802190E69402",
+          "corner_radius" : 0,
+          "font_size" : 15,
+          "name" : "check_button"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{28, 392}, {200, 60}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "check_answer_label",
+          "frame" : "{{283, 298}, {150, 32}}",
+          "uuid" : "B457703D-11D3-4E92-A0A5-74EB6834DD5E",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
